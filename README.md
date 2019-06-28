@@ -1,10 +1,13 @@
-## Amazon Transcribe Comprehend Podcast
+## Demo: Indexed Audio Podcast Archive
 
-This is the repo for the italian AWS webinar on Amazon AI services. It is derived from the original aws-samples repo, with some changes made for the webinar demo.  If you want to start from scratch you can start with that specific repository. A demo application that transcribes and indexes podcast episodes so the listeners can explore and discover episodes of interest and podcast owners can do analytics on the content over time. This solution leverages Amazon Transcribe, Amazon Comprehend, Amazon Elasticsearch, AWS Step Functions and AWS Lambda.
+This is the repo for the italian AWS webinar on Amazon AI services. It is derived from the original aws-samples repo, with some changes made for the webinar demo.  If you want to start from scratch you can start with that specific repository.
+
+## Amazon Transcribe Comprehend Podcast
+ A demo application that transcribes and indexes podcast episodes so the listeners can explore and discover episodes of interest and podcast owners can do analytics on the content over time. This solution leverages Amazon Transcribe, Amazon Comprehend, Amazon Elasticsearch, AWS Step Functions and AWS Lambda.
 
 ### High-level Architecture
 
-![architecture diagram](images/architecture.png)
+![architecture diagram](images/Pocast_demo_architecture.png)
 
 ## Running the Example
 
