@@ -65,6 +65,12 @@ def lambda_handler(event, context):
 
                 if letter == '.':
                     letter = '-dot'
+                
+                if letter =='+':
+                    letter = '-plus'
+                    
+                if letter =='@':
+                    letter = 'at'
 
                 if letter.isspace():
                     letter = '-'
@@ -82,6 +88,9 @@ def lambda_handler(event, context):
             vocabularyTerms.append(item)
 
     vocabularyName = id_generator()
+
+    print('creating vocabulary with terms:')
+    print(json.dumps(vocabularyTerms, indent=2))
 
     # Create the vocabulary
     response = transcribe_client.create_vocabulary(
