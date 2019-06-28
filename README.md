@@ -5,6 +5,8 @@ If you want to start from scratch you can start with that specific repository.
 
 This is a demo application that transcribes and indexes podcast episodes so the listeners can explore and discover episodes of interest and podcast owners can do analytics on the content over time. This solution leverages Amazon Transcribe, Amazon Comprehend, Amazon Elasticsearch, AWS Step Functions and AWS Lambda.
 
+It is largely based on the AWS blog post "Discovering and indexing podcast episodes using Amazon Transcribe and Amazon Comprehend" by by Angela Wang and Mike Gillespie. https://aws.amazon.com/blogs/machine-learning/discovering-and-indexing-podcast-episodes-using-amazon-transcribe-and-amazon-comprehend/ 
+
 ### High-level Architecture
 
 ![architecture diagram](images/Pocast_demo_architecture.png)
